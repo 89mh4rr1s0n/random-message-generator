@@ -12,7 +12,7 @@ function addProperty(obj) {
     let i = randIndex(obj.traits)
     !rIndexes.includes(i) && rIndexes.push(i)
   }
-  obj.message = `As an ${obj.traits[rIndexes[0]]}, ${obj.traits[rIndexes[1]]} and ${obj.traits[rIndexes[2]]} ${obj.name} here is your advice:`;
+  obj.message = `As a ${obj.traits[rIndexes[0]]}, ${obj.traits[rIndexes[1]]} and ${obj.traits[rIndexes[2]]} ${obj.name} here is your advice:`;
   return obj;
 }
 
